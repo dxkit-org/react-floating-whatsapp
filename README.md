@@ -1,10 +1,10 @@
-# React Floating Whatsapp2
+# React Floating WhatsApp
 
-> Simple react component for adding a floating WhatsApp button to your project.
+> Simple React component for adding a floating WhatsApp button to your project with additional functionality.
 
-[![NPM](https://img.shields.io/npm/v/react-floating-whatsapp.svg)](https://www.npmjs.com/package/react-floating-whatsapp)
-![npm bundle size](https://img.shields.io/bundlephobia/min/react-floating-whatsapp)
-![GitHub](https://img.shields.io/github/license/AdarshHatkar/react-floating-whatsapp)
+[![NPM](https://img.shields.io/npm/v/@dxkit-org/react-floating-whatsapp.svg)](https://www.npmjs.com/package/@dxkit-org/react-floating-whatsapp)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@dxkit-org/react-floating-whatsapp)
+![GitHub](https://img.shields.io/github/license/dxkit-org/react-floating-whatsapp)
 
 <p align="center">
   <img src="./screenshot.gif" alt="screenshot" width="100%" />
@@ -15,13 +15,13 @@
 #### npm
 
 ```bash
-npm i react-floating-whatsapp
+npm i @dxkit-org/react-floating-whatsapp
 ```
 
 #### Yarn
 
 ```bash
-yarn add react-floating-whatsapp
+yarn add @dxkit-org/react-floating-whatsapp
 ```
 
 
@@ -30,7 +30,7 @@ yarn add react-floating-whatsapp
 
 ```jsx
 import React from 'react'
-import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import { FloatingWhatsApp } from '@dxkit-org/react-floating-whatsapp'
 
 export default function App() {
 
@@ -80,12 +80,23 @@ export default function App() {
 
 [![Edit react-floating-whatsapp](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/react-floating-whatsapp-183py)
 
-### Credits 
+## Features
 
-[awran5](https://github.com/awran5/react-floating-whatsapp/)
+- 🚀 Easy to use React component
+- 💼 TypeScript support
+- 🎨 Customizable styling with CSS classes and inline styles
+- 🌙 Dark mode support
+- 🔔 Notification system with sound support
+- 📱 Responsive design
+- ⌨️ Keyboard accessibility (ESC key support)
+- 🖱️ Click away to close functionality
+- 🎯 Callback functions for various events
+- 📞 Direct WhatsApp integration
 
-i forked this project because owner is inactive from last many months also need some extra functionality and more stability 
+## Credits 
+
+This project is forked from [awran5/react-floating-whatsapp](https://github.com/awran5/react-floating-whatsapp/) with additional functionality and improved stability.
 
 ### License
 
-MIT © [AdarshHatkar](https://github.com/AdarshHatkar/)
+MIT © [dxkit-org](https://github.com/dxkit-org/)

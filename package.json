@@ -10,12 +10,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdarshHatkar/react-floating-whatsapp.git"
+    "url": "https://github.com/dxkit-org/react-floating-whatsapp.git"
   },
   "bugs": {
-    "url": "https://github.com/AdarshHatkar/react-floating-whatsapp/issues"
+    "url": "https://github.com/dxkit-org/react-floating-whatsapp/issues"
   },
-  "homepage": "https://react-floating-whatsapp.vercel.app/",
+  "homepage": "https://github.com/dxkit-org/react-floating-whatsapp",
   "main": "dist/index.js",
   "source": "src/index.tsx",
   "engines": {
