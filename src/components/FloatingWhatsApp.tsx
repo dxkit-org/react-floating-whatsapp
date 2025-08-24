@@ -80,6 +80,7 @@ export interface FloatingWhatsAppProps {
   buttonClassName?: string
   /** Inline style applied to send button */
   sendButtonClassName?: string
+  whatsappButtonProps?: React.HTMLAttributes<HTMLDivElement>
 }
 
 export function FloatingWhatsApp({
@@ -122,7 +123,8 @@ export function FloatingWhatsApp({
 
   darkMode = false,
   style,
-  className = 'floating-whatsapp'
+  className = 'floating-whatsapp',
+  whatsappButtonProps
 }: FloatingWhatsAppProps) {
   const [{ isOpen, isDelay, isNotification }, dispatch] = useReducer(reducer, {
     isOpen: false,
@@ -231,10 +233,11 @@ export function FloatingWhatsApp({
   return (
     <div className={`${css.floatingWhatsapp} ${darkMode ? `${css.dark} ` : ''} ${className}`} style={style}>
       <div
-        className={`${css.whatsappButton} ${buttonClassName}`}
+        className={`${css.whatsappButton} ${buttonClassName} ` + whatsappButtonProps?.className}
         onClick={handleOpen}
         style={buttonStyle}
         aria-hidden='true'
+        {...whatsappButtonProps}
       >
         <WhatsappSVG />
         {isNotification && (
