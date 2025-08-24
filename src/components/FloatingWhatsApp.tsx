@@ -230,14 +230,16 @@ export function FloatingWhatsApp({
     return () => document.removeEventListener('keydown', onEscKey)
   }, [allowEsc, isOpen, handleClose])
 
+  let { className: whatsappButtonClassName, ...whatsappButtonPropsRest } = whatsappButtonProps || {}
+
   return (
     <div className={`${css.floatingWhatsapp} ${darkMode ? `${css.dark} ` : ''} ${className}`} style={style}>
       <div
-        className={`${css.whatsappButton} ${buttonClassName} ` + whatsappButtonProps?.className}
+        className={`${css.whatsappButton} ${buttonClassName} ` + whatsappButtonClassName}
         onClick={handleOpen}
         style={buttonStyle}
         aria-hidden='true'
-        {...whatsappButtonProps}
+        {...whatsappButtonPropsRest}
       >
         <WhatsappSVG />
         {isNotification && (
