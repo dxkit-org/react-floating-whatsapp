@@ -2,7 +2,7 @@
   "name": "@dxkit-org/react-floating-whatsapp",
   "version": "1.0.8",
   "private": false,
-  "description": "Simple React Component for adding a floating WhatsApp button to your project. with some additional functionality ",
+  "description": "🚀 Fully customizable React WhatsApp floating button component with TypeScript support, dark mode, notifications, and seamless WhatsApp integration for modern web applications",
   "author": {
     "name": "AdarshHatkar",
     "email": "adarsh@primexop.com"
@@ -15,7 +15,11 @@
   "bugs": {
     "url": "https://github.com/dxkit-org/react-floating-whatsapp/issues"
   },
-  "homepage": "https://github.com/dxkit-org/react-floating-whatsapp",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/dxkit-org"
+  },
+  "homepage": "https://github.com/dxkit-org/react-floating-whatsapp#readme",
   "main": "dist/index.js",
   "source": "src/index.tsx",
   "engines": {
@@ -64,20 +68,41 @@
   "keywords": [
     "react",
     "whatsapp",
-    "floating whatsapp button",
-    "floating whatsapp button 2",
-    "whatsapp button",
-    "react component",
-    "react typescript"
+    "floating-whatsapp",
+    "whatsapp-button",
+    "floating-button",
+    "react-component",
+    "typescript",
+    "whatsapp-widget",
+    "chat-widget",
+    "customer-support",
+    "ui-component",
+    "react-whatsapp",
+    "whatsapp-integration",
+    "messaging",
+    "communication",
+    "contact-button",
+    "responsive",
+    "customizable",
+    "dark-mode",
+    "notifications",
+    "click-to-chat",
+    "web-widget",
+    "frontend",
+    "javascript",
+    "npm-package"
   ],
   "tags": [
-    "react",
-    "whatsapp",
-    "floating-whatsapp-button",
-    "floating-whatsapp-button 2",
-    "whatsapp-button",
-    "react-component",
-    "react-typescript"
+    "react-whatsapp-component",
+    "floating-chat-widget",
+    "whatsapp-business-api",
+    "customer-engagement",
+    "live-chat",
+    "contact-widget",
+    "social-media-integration",
+    "mobile-first",
+    "accessibility",
+    "modern-ui"
   ],
   "eslintConfig": {
     "extends": [
