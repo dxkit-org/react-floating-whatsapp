@@ -1,6 +1,6 @@
 {
   "name": "@dxkit-org/react-floating-whatsapp",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": false,
   "description": "🚀 Fully customizable React WhatsApp floating button component with TypeScript support, dark mode, notifications, and seamless WhatsApp integration for modern web applications",
   "author": {
