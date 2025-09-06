@@ -18,8 +18,6 @@
 npm i @dxkit-org/react-floating-whatsapp
 ```
 
-
-
 ## Usage
 
 ```jsx
@@ -51,8 +49,8 @@ export default function App() {
 | `placeholder`           |    String     | Optional | Input placeholder.                                                                                                        |          `Type a message..`          |
 | `messageDelay`          |    Number     | Optional | Time delay after which the chatMessage is displayed (in seconds).                                                         |                 `2`                  |
 | `darkMode`              |    Boolean    | Optional | Dark style.                                                                                                               |               `false`                |
-| `openChatOnClick`        |    Boolean    | Optional | open the chat box if clicked on whatsApp icon                                                                              |               `true`                |
-| `allowDefaultSubmit`        |    Boolean    | Optional |  Allow default submit behavior of redirecting to whatsApp on submit                                                                           |               `true`                |
+| `openChatOnClick`       |    Boolean    | Optional | open the chat box if clicked on whatsApp icon                                                                             |                `true`                |
+| `allowDefaultSubmit`    |    Boolean    | Optional | Allow default submit behavior of redirecting to whatsApp on submit                                                        |                `true`                |
 | `allowClickAway`        |    Boolean    | Optional | Closes the chat box when user clicks outside                                                                              |               `false`                |
 | `allowEsc`              |    Boolean    | Optional | Closes the chat box when `Escape` key is pressed                                                                          |               `false`                |
 | `className`             |    String     | Optional | CSS className applied to the main wrapping `Div`                                                                          |         `floating-whatsapp`          |
@@ -87,7 +85,7 @@ export default function App() {
 - 🎯 Callback functions for various events
 - 📞 Direct WhatsApp integration
 
-## Credits 
+## Credits
 
 This project is forked from [awran5/react-floating-whatsapp](https://github.com/awran5/react-floating-whatsapp/) with additional functionality and improved stability.
 
