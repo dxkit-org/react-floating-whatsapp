@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "projectType": "vite-react",
+  "assetsTypeGenerator": {
+    "imagesDir": "src/assets/images",
+    "imageNameCase": "kebab-case"
+  }
+}
