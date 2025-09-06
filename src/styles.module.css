@@ -294,6 +294,7 @@
   background-color: transparent;
   border: 0;
   cursor: pointer;
+  margin-left: 0.75rem;
 }
 
 .chatFooter form .buttonSend svg {
