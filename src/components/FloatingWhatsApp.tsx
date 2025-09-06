@@ -5,6 +5,7 @@ import css from '../styles.module.css'
 
 
 import SoundBeep from '../assets/sound/whatsapp-notification.mp3'
+
 import { ImageAssets } from 'src/assets/images'
 
 export interface FloatingWhatsAppProps {
@@ -267,7 +268,7 @@ export function FloatingWhatsApp({
           </div>
         </header>
 
-        <div className={css.chatBody} style={{ backgroundImage: `url(${darkMode ? ImageAssets.bgChatTileDark : ImageAssets.bgChatTileLight})` }}>
+        <div className={css.chatBody} style={{ backgroundImage: `url(${darkMode ? ImageAssets.bgChatTileDarkMode : ImageAssets.bgChatTileLightMode})` }}>
           {isDelay ? (
             <div className={css.chatBubble}>
               <div className={css.typing}>
