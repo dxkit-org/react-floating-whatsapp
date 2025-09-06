@@ -18,12 +18,6 @@
 npm i @dxkit-org/react-floating-whatsapp
 ```
 
-#### Yarn
-
-```bash
-yarn add @dxkit-org/react-floating-whatsapp
-```
-
 
 
 ## Usage
